@@ -36,4 +36,4 @@ Com um saldo inicial pré-definido, o usuário realiza saques. O programa valida
 ## Como executar
 1. Clone este repositório:
    ```bash
-   git clone 
+   git clone [https://github.com/pedrobuneo-collab/laco-repeticao-while-.git]
