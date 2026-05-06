@@ -1,0 +1,20 @@
+let nome = "";
+let sobrenome = "";
+
+while (nome === "" || nome === null) {
+    nome = prompt("Digite seu primeiro nome: ");
+
+    if (nome === "" || nome === null) {
+        alert("NOME nao pode ficar em branco! ")
+    }
+}
+
+    while (sobrenome === "" || sobrenome === null) {
+    sobrenome = prompt("Digite seu sobrenome: ");
+
+    if (sobrenome === "" || sobrenome === null) {
+        alert("SOBRENOME nao pode ficar em branco! ")
+    }
+}
+
+alert(`Seu nome é: ${nome} ${sobrenome}`);
